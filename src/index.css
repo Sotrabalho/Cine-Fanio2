@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  /* Hide scrollbars for clean horizontal streaming rows while keeping scrollable */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Custom dark scrollbars for modal and admin panels */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0d0d12;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2a2a35;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #dc2626;
+  }
+}
+
+.font-bebas {
+  font-family: 'Bebas Neue', Impact, sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "CIne Fanio",
+  "description": "Plataforma de streaming moderna de filmes, séries, animes e canais ao vivo com catálogo TMDB e design profissional.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
